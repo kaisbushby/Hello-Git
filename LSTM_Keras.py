@@ -12,6 +12,8 @@ N = n*K         # Total Data Size
 batch_size = 50 # Mini Batch Size
 n_batches = N
 
+#Adding a line of comment
+
 model = Sequential([
     Dense(input_dim=M, units=K),
     Activation('sigmoid')
